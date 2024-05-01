@@ -1,0 +1,91 @@
+body{
+    margin: 20px;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#faf9f9;
+    padding: 10px;
+}
+
+nav img{ 
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+button  {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(12, 12, 12);
+}
+
+button i {
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.herosection{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-image: url('heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.small-button{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 70px;
+    background-image:repeating-linear-gradient(to right,black,white);
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-style: sans-serif;
+}
+.paragraphs{
+    padding: 20px;
+    background-color: rgb(192, 180, 189);
+      display:flex;
+      height: flex;
+      justify-content: space-evenly;
+      text-align: center;
+}
+.child-paragraph{
+    width: 300px;
+    height: 350px;
+}
+.content{
+    background-color: rgb(247, 243, 243);
+    height: 500px;
+}
+.heading{
+    font-family: sans-serif;
+    padding-left: 30px;
+}
